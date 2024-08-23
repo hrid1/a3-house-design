@@ -42,6 +42,9 @@
             fontFamily: {
               manrope: "Manrope",
             },
+            backgroundImage: {
+                'hero-pattern': "url('/assets/bg.jpg')",
+            }
           },
         },
       };
@@ -285,7 +288,7 @@
           </section>
 
           <!-- latest protfulio -->
-           <section>
+           <section class="bg-hero-pa">
             
 
            </section>
@@ -396,6 +399,58 @@
         
      </section>
     </main>
+
+    <!-- Form section -->
+
+    <section class="bg-hero-pattern h-[] bg-no-repeat bg-cover bg-center my-12">
+
+        <div class="container mx-auto py-8 md:py-24">
+
+            <!-- info -->
+            <div class="mx-auto text-center space-y-6 my-6 ">
+                    <button
+                    class="px-4 py-2 rounded-full border flex items-center justify-center gap-2 font-semibold bg-secondary mx-auto "
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <span>Explore Our Latest Works</span>
+                  </button>
+                    <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">Our Latest Portfolio</h2>
+                    <p class="font-[500] text-info md:w-3/5 mx-auto px-2">
+                        The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal
+                        accents.
+                      </p>
+            </div>
+            
+            <!-- input -->
+            <div class="input-section">
+
+                <div class="flex flex-col md:flex-row gap-4 md:gap-8 items-center justify-center mb-4 md:mb-6">
+                    <input type="text" placeholder="Type here" class="input input-bordered w-5/6 md:w-1/3  rounded-full " />
+
+                    <input type="text" placeholder="Type here" class="input input-bordered w-5/6 md:w-1/3 rounded-full " />
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 md:gap-8 items-center justify-center mb-4 md:mb-6">
+                    <input type="text" placeholder="Type here" class="input input-bordered w-5/6 md:w-1/3  rounded-full " />
+
+                    <input type="text" placeholder="Type here" class="input input-bordered w-5/6 md:w-1/3 rounded-full " />
+                </div>
+
+                <div class="w-full flex items-center ">
+                    <textarea class="w-5/6 md:w-[70%] h-48 md:h-48 mx-auto rounded-3xl p-4" 
+                    placeholder="Write your message here" rows="" name="" id=""></textarea>
+                </div>
+
+                
+                
+
+
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- Footer section -->
 
