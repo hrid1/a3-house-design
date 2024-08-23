@@ -27,12 +27,11 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
               primary: "#ABEF5F",
               secondary: "#ABEF5F80",
+              info: "#494949",
             },
             backgroundColor: {
-              secondary: 'rgb(244, 244, 244);',
               box1: "#E7C1D3",
               box2: "#EFDA6E",
               box2: "#A4DAC3",
@@ -56,8 +55,8 @@
     />
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto border bg-gray-100 ">
-        <!-- Navbar Section -->
+    <header class="container mx-auto border bg-gray-100">
+      <!-- Navbar Section -->
       <nav>
         <div class="navbar bg-gray-100">
           <div class="navbar-start">
@@ -84,11 +83,15 @@
           <div class="navbar-end">
             <div class="hidden md:block">
               <div class="flex items-center gap-4">
-                <div class="bg-white w-12 h-12 rounded-full flex items-center justify-center">
+                <div
+                  class="bg-white w-12 h-12 rounded-full flex items-center justify-center"
+                >
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div class="bg-white w-12 h-12 rounded-full flex items-center justify-center">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                <div
+                  class="bg-white w-12 h-12 rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
                 </div>
 
                 <button
@@ -97,11 +100,10 @@
                   <span class="font-extrabold">Book Consult</span>
 
                   <div
-                class="bg-black text-white h-8 w-8 rounded-full flex items-center justify-center -rotate-45"
-              >
-                <i class="fa-solid fa-arrow-right "></i>
-              </div>
-                 
+                    class="bg-black text-white h-8 w-8 rounded-full flex items-center justify-center -rotate-45"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
                 </button>
               </div>
             </div>
@@ -128,21 +130,42 @@
       </nav>
       <!-- Banner Section -->
 
-      <section>
+      <section class="flex flex-col gap-4 items-center justify-center px-6 my-6">
+        <!-- banner picture -->
+        <div class="px-5">
+          <img src="./assets/banner.png" alt="" />
+        </div>
 
+        <!-- banner info -->
+        <div class="text-center mx-auto space-y-6 md:w-2/3 md:tracking-tight">
+
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+            A barn house of this design has a striking appearance
+          </h1>
+          <p class="text-info font-[500] text-sm">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+
+          <button
+            class="rounded-full px-4 py-2 md:px-5 md:py-3 flex items-center justify-center gap-2 bg-secondary mx-auto w-full md:w-56 "
+          >
+            <span class="font-extrabold">View Details </span>
+
+            <div
+              class="bg-primary h-8 w-8 rounded-full flex items-center justify-center -rotate-45"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </button>
+        </div>
       </section>
     </header>
 
     <!-- Main Section -->
-    <main>
+    <main></main>
 
-        
-
-
-
-    </main>
-
-    
     <!-- Footer section -->
 
     <footer></footer>
