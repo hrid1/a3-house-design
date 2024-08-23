@@ -38,6 +38,7 @@
               box2: "#EFDA6E",
               box3: "#A4DAC3",
               box4: "#77AAEA",
+              dark: "##1C1C1C",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -402,7 +403,7 @@
 
     <!-- Form section -->
 
-    <section class="bg-hero-pattern h-[] bg-no-repeat bg-cover bg-center my-12">
+    <section class="bg-hero-pattern bg-no-repeat bg-cover bg-center mt-12">
 
         <div class="container mx-auto py-8 md:py-24">
 
@@ -437,9 +438,20 @@
                 </div>
 
                 <div class="w-full flex items-center ">
-                    <textarea class="w-5/6 md:w-[70%] h-48 md:h-48 mx-auto rounded-3xl p-4" 
+                    <textarea class="w-5/6 md:w-[68%] h-48 md:h-48 mx-auto rounded-3xl p-4 mb-8" 
                     placeholder="Write your message here" rows="" name="" id=""></textarea>
                 </div>
+
+                <button
+                    class="px-4 py-2 rounded-full border flex items-center justify-center gap-2 font-semibold bg-primary  mx-auto w-5/6 md:w-[68%]"
+                  >
+                    <span>Explore Our Latest Works</span>
+                    <div
+                    class="bg-black text-white h-8 w-8 rounded-full flex items-center justify-center -rotate-45"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  </button>
 
                 
                 
@@ -452,8 +464,59 @@
 
     </section>
 
+
+    <!--  -->
+
     <!-- Footer section -->
 
-    <footer></footer>
+    <footer class="bg-[#1C1C1C]">
+
+      <section class="py-24 text-center">
+
+        <div class="flex flex-col gap-6 items-center justify-center">
+            <div class="flex items-center gap-2 ">
+                <div
+                  class="bg-primary h-8 w-8 rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <span class="font-extrabold text-3xl text-white">Rinterio</span>
+              </div>
+
+              <p class="text-[#737373] px-4">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+
+            <div>
+
+                <ul class="text-white flex flex-col md:flex-row gap-6 md:gap-28 my-6 md:my-12">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+
+            <button
+                    class="px-4 py-2 rounded-full border flex items-center justify-center gap-2 font-semibold bg-primary  mx-auto "
+                  >
+                    <span>Explore Our Latest Works</span>
+                    <div
+                    class="bg-black text-white h-8 w-8 rounded-full flex items-center justify-center -rotate-45"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  </button>
+    
+          </section>
+
+
+        </div>
+
+       
+
+
+    </footer>
   </body>
 </html>
